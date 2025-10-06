@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guía de Revisión de JavaScript – Proyecto ToDo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Guía de Revisión de JavaScript</h1>
+    <p>Proyecto ToDo con localStorage</p>
+  </header>
+
+  <section>
+    <h2>1. Fundamentos</h2>
+    <p>Antes de empezar el proyecto, revisemos:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions" target="_blank">Funciones en JavaScript (MDN)</a></li>
+      <li><a href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/" target="_blank">var, let y const (freeCodeCamp)</a></li>
+    </ul>
+    <div class="ejercicio">
+      <strong>Ejercicio:</strong> Escribe una función que reciba el nombre de un alumno y devuelva un saludo. Prueba declararla con <code>function</code> y con <code>const</code> usando arrow functions.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Arreglos y Objetos</h2>
+    <p>Las tareas de tu ToDo estarán en un arreglo. Revisa:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">Array – MDN</a></li>
+      <li><a href="https://www.freecodecamp.org/news/learn-javascript-for-beginners/" target="_blank">Más de de Arrays (freeCodeCamp)</a></li>
+      <li><a href="https://www.freecodecamp.org/espanol/news/como-manipular-arreglos-en-javascript/" target="_blank">Ejemplos de Arrays (freeCodeCamp)</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_Objects" target="_blank">Objetos – MDN</a></li>
+    </ul>
+    <div class="ejercicio">
+      <strong>Ejercicio:</strong> Declara un arreglo de objetos que representen tareas:<br>
+      <code>[{id:1, texto:"Estudiar JS", completada:false}, ...]</code>.<br>
+      Agrega una nueva tarea al arreglo y muéstrala en consola.
+    </div>
+  </section>
+
+  <section>
+    <h2>3. DOM y Eventos</h2>
+    <p>Necesitarás interactuar con botones e inputs:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction" target="_blank">Introducción al DOM – MDN</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener" target="_blank">addEventListener – MDN</a></li>      
+      <li><a href="https://www.freecodecamp.org/news/javascript-events-explained-in-simple-english/" target="_blank">Eventos en JavaScript – freeCodeCamp</a></li>
+    </ul>
+    <div class="ejercicio">
+      <strong>Ejercicio:</strong> Crea un botón en HTML. Con JavaScript agrega un evento <code>click</code> que muestre en consola: "¡Botón presionado!".
+    </div>
+  </section>
+
+  <section>
+    <h2>4. Persistencia con localStorage</h2>
+    <p>Para guardar las tareas incluso si cierras el navegador:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/API/Window/localStorage" target="_blank">localStorage – MDN</a></li>
+      <li><a href="https://www.freecodecamp.org/espanol/news/como-usar-localstorage-en-javascript/" target="_blank">Ejemplos con localStorage – freeCodeCamp</a></li>
+    </ul>
+    <div class="ejercicio">
+      <strong>Ejercicio:</strong> Guarda en <code>localStorage</code> tu nombre bajo la clave <code>"alumno"</code>. Después recupéralo y muéstralo en un <code>alert()</code>.
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Mejoras y Refactorización</h2>
+    <p>Cuando tu ToDo funcione, mejora el código:</p>
+    <ul>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">filter – MDN</a></li>
+      <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank">map – MDN</a></li>
+      <li><a href="https://www.freecodecamp.org/news/template-literals-in-javascript/" target="_blank">Template literals – freeCodeCamp</a></li>
+    </ul>
+    <div class="ejercicio">
+      <strong>Ejercicio:</strong> Implementa un botón "Eliminar completadas". Usa <code>filter()</code> para quedarte solo con las tareas no completadas.
+    </div>
+  </section>
+
+  <footer>
+    <p>Guía para el acompañamiento del proyecto ToDo con JavaScript y localStorage.</p>    
+  </footer>
+</body>
+</html>
